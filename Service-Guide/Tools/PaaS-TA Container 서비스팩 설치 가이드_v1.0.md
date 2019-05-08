@@ -517,11 +517,11 @@ Deployment 파일에서 사용하는 network, vm_type 등은 Cloud config를 활
 $ vi ./manifests/paasta-caas-service-vsphere-vars.yml
 
 
-# RELEASE
+ # RELEASE
 caas_projects_release_name: "paasta-caas-projects-release-beta"
 caas_projects_release_version: "1.0"
 
-# IAAS
+ # IAAS
 vcenter_master_user: "<VCENTER_MASTER_USER>"
 vcenter_master_password: "<VCENTER_MASTER_PASSWORD>"
 vcenter_ip: "<VCENTER_IP>"
@@ -529,7 +529,7 @@ vcenter_dc: "<VCENTER_DC>"
 vcenter_ds: "<VCENTER_DS>"
 vcenter_vms: "<VCENTER_VMS>"
 
-# STEMCELL
+ # STEMCELL
 stemcell_os: "ubuntu-trusty"
 stemcell_version: "3586.26"
 stemcell_alias: "trusty"
